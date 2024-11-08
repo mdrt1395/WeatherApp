@@ -1,3 +1,6 @@
 package com.example.domain.weather
 
-data class WeatherInfo()
+data class WeatherInfo(
+    val weatherDataPerDay: Map<Int, List<WeatherData>>,
+    val currentWeatherData: WeatherData?
+)
