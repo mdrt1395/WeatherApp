@@ -13,8 +13,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.weatherapp"
-        minSdk = 26
-        targetSdk = 34
+        minSdk = 31
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -76,7 +76,7 @@ dependencies {
     implementation (libs.androidx.lifecycle.viewmodel.compose)
 
     //Location Services
-    implementation ("com.google.android.gms:play-services-location:20.0.0")
+    implementation ("com.google.android.gms:play-services-location:21.3.0")
 
 
 
